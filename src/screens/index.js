@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
 import Wave from "../components/Wave";
 import DropBg from "../components/DropBg";
-import Buttons from "../components/Buttons";
-import MainLogo from "../components/MainLogo";
+import FillInfo from "./FillInfo";
+import PaySuccess from "./PaySuccess";
+import LandingPage from "./LandingPage";
 
 const Container = styled.div`
   position: absolute;
@@ -18,12 +19,6 @@ const Container = styled.div`
   overflow: hidden;
 `;
 
-const LogoArea = styled.div`
-  position: relative;
-  width: 100%;
-  height: 100%;
-  margin-top: 64px;
-`;
 const BgArea = styled.div`
   position: absolute;
   width: 100%;
@@ -33,15 +28,33 @@ const BgArea = styled.div`
 `;
 
 function Screen() {
+  const [pages, setPages] = useState({
+    landingPage: true,
+    fillInfo: false,
+    paySuccess: false
+  });
+  const onConfirm = target => {
+    setPages({
+      landingPage: false,
+      fillInfo: false,
+      paySuccess: false,
+      [target]: true
+    });
+  };
   return (
     <Container>
-      <LogoArea>
-        <MainLogo />
-        <Buttons text="立即付款" />
-      </LogoArea>
+      <LandingPage
+        onConfirm={() => onConfirm("fillInfo")}
+        open={pages.landingPage}
+      />
+      <FillInfo
+        onConfirm={() => onConfirm("paySuccess")}
+        open={pages.fillInfo}
+      />
+      <PaySuccess open={pages.paySuccess} />
       <BgArea>
-        <DropBg />
-        <Wave top="50" />{" "}
+        {pages.landingPage ? <DropBg /> : null}
+        <Wave top="50" shark={pages.paySuccess} />
       </BgArea>
     </Container>
   );
