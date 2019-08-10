@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fbc7caf20b94e83a39d763ace7446268",
+    "revision": "aa24ce3499ceffab5d779c82fa2f81c7",
     "url": "/f2e-w4-payment/index.html"
   },
   {
-    "revision": "412446bb785208e5e974",
+    "revision": "c1bc74f1f24b200365dd",
     "url": "/f2e-w4-payment/static/css/main.eab9173f.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/f2e-w4-payment/static/js/2.4727b4f7.chunk.js"
   },
   {
-    "revision": "412446bb785208e5e974",
-    "url": "/f2e-w4-payment/static/js/main.7cad1dde.chunk.js"
+    "revision": "c1bc74f1f24b200365dd",
+    "url": "/f2e-w4-payment/static/js/main.2f6e3a4f.chunk.js"
   },
   {
     "revision": "13602b045ad68b3f537b",
