@@ -1,0 +1,7 @@
+<svg id="box" xmlns="http://www.w3.org/2000/svg" width="58" height="58" viewBox="0 0 58 58">
+  <path id="Path" d="M48,0H10L0,16V58H58V16Z" fill="#cea02a"/>
+  <path id="Path-2" data-name="Path" d="M10,0,0,16H58L48,0Z" fill="#ffcf61"/>
+  <path id="Path-3" data-name="Path" d="M10,4,6,0,2,4,0,2V8H12V2Z" transform="translate(23 50)" fill="#dbdb7d"/>
+  <rect id="Rectangle" width="12" height="16" transform="translate(23)" fill="#ffffb6"/>
+  <path id="Path-4" data-name="Path" d="M2,5,6,9l4-4,2,2V0H0V7Z" transform="translate(23 16)" fill="#dbdb7d"/>
+</svg>

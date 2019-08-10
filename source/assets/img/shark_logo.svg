@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="144.79" height="134.21" viewBox="0 0 144.79 134.21">
+  <defs>
+    <clipPath id="clip-path">
+      <ellipse id="Oval_Copy" data-name="Oval Copy" cx="56.071" cy="56.037" rx="56.071" ry="56.037" transform="translate(0 0)" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="1.18" y1="0.593" x2="0.5" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0e9fcf"/>
+      <stop offset="1" stop-color="#0666a1"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.5" y1="0" y2="1" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-5" x1="-0.18" y1="0.593" xlink:href="#linear-gradient"/>
+    <clipPath id="clip-path-2">
+      <path id="Oval" d="M20.472,18.212c10.038,0,21.261-2.679,24.366-10.077s2.739-4-18.095-7.125S-4.166,2.41,1.612,9.258,10.433,18.212,20.472,18.212Z" transform="translate(0.471 0.514)" fill="#06283d"/>
+    </clipPath>
+  </defs>
+  <g id="shark_logo" transform="translate(-0.604 0)">
+    <g id="Group_13" data-name="Group 13" transform="translate(33.251)">
+      <ellipse id="Oval_Copy-2" data-name="Oval Copy" cx="56.071" cy="56.037" rx="56.071" ry="56.037" transform="translate(0 0)" fill="none"/>
+      <g id="Group_13-2" data-name="Group 13" clip-path="url(#clip-path)">
+        <g id="Group_12" data-name="Group 12" transform="translate(-37.147 3.502)">
+          <g id="Group_11" data-name="Group 11">
+            <path id="Oval_Copy_10" data-name="Oval Copy 10" d="M3.762,16.575C10.387,14.871,13.7,11.293,13.7,8S9.869,0,7.125,0,1.278,4.7,1.278,8-2.863,18.278,3.762,16.575Z" transform="translate(123.818 41.973)" fill="url(#linear-gradient)"/>
+            <path id="Oval_Copy_9" data-name="Oval Copy 9" d="M3.762,16.575C10.386,14.873,13.7,11.295,13.7,8S9.866,0,7.122,0,1.276,4.7,1.277,8-2.862,18.277,3.762,16.575Z" transform="matrix(0.951, -0.309, 0.309, 0.951, 119.615, 42.001)" fill="url(#linear-gradient)"/>
+            <path id="Oval-2" data-name="Oval" d="M14.6,57.843c10-1.282,8.581-30.7,8.575-41.036S14.038,0,9,0s-9,11.135-9,21.56S4.6,59.125,14.6,57.843Z" transform="matrix(0.788, -0.616, 0.616, 0.788, 110.748, 62.634)" fill="url(#linear-gradient-3)"/>
+            <path id="Shark" d="M-9.86,22.26C-29.731,9.763-35.8-2.909-56.806.59s21.164,32.5-14.777,59.481S38.3,26.992-9.86,22.26Z" transform="translate(60.272 0.256) rotate(-39)" fill="#0666a1"/>
+            <path id="Oval-3" data-name="Oval" d="M37.41,176.745c25.245,0,51.109-60,51.109-101.555S81.247,0,67.011,0,0,15.746,0,57.3,12.164,176.745,37.41,176.745Z" transform="translate(42.446 5.604)" fill="#0666a1"/>
+            <path id="Oval-4" data-name="Oval" d="M4.788,20.718c8.43-2.128,12.644-6.6,12.644-10.72S12.556,0,9.064,0,1.624,5.877,1.625,10-3.642,22.846,4.788,20.718Z" transform="translate(114.008 38.187) rotate(-13)" fill="url(#linear-gradient)"/>
+            <path id="Oval-5" data-name="Oval" d="M.995,51.322c4.641,6.319,29.9-11.816,35.912-24.94.3-.66,7.123-18.8-.344-22.921-7.862-4.342-17.11-5.9-22.25,3.2S-3.646,45,.995,51.322Z" transform="translate(42.446 170.773)" fill="#0666a1"/>
+            <path id="Oval_Copy_5" data-name="Oval Copy 5" d="M39.049,51.322c-4.641,6.319-29.9-11.816-35.912-24.94-.3-.66-7.123-18.8.344-22.921,7.862-4.342,17.11-5.9,22.25,3.2S43.69,45,39.049,51.322Z" transform="translate(76.167 170.773)" fill="#0666a1"/>
+            <ellipse id="Oval-6" data-name="Oval" cx="2.804" cy="4.203" rx="2.804" ry="4.203" transform="translate(114.706 25.862)"/>
+            <ellipse id="Oval_Copy_6" data-name="Oval Copy 6" cx="3.504" cy="5.604" rx="3.504" ry="5.604" transform="translate(90.175 23.761)"/>
+            <ellipse id="Oval-7" data-name="Oval" cx="1.581" cy="1.579" rx="1.581" ry="1.579" transform="translate(107.697 14.655)" opacity="0.393"/>
+            <ellipse id="Oval_Copy_7" data-name="Oval Copy 7" cx="1.402" cy="1.401" rx="1.402" ry="1.401" transform="translate(113.304 13.954)" opacity="0.393"/>
+            <path id="Oval_Copy_11" data-name="Oval Copy 11" d="M-3.762,16.575C-10.387,14.871-13.7,11.293-13.7,8s3.83-8,6.574-8,5.847,4.7,5.847,8S2.863,18.278-3.762,16.575Z" transform="translate(68.83 40.572)" fill="url(#linear-gradient-5)"/>
+            <path id="Oval_Copy_12" data-name="Oval Copy 12" d="M-3.762,16.575C-10.387,14.872-13.7,11.294-13.7,8s3.831-8,6.575-8,5.846,4.7,5.846,8S2.862,18.277-3.762,16.575Z" transform="translate(75.3 41.082) rotate(14)" fill="url(#linear-gradient-5)"/>
+            <path id="Oval_Copy_8" data-name="Oval Copy 8" d="M-4.788,25.28c-8.43-2.129-10.527-7.164-12.03-13.188S-6.792,0-3.3,0s1.675,10.44,1.675,14.559S3.643,27.409-4.788,25.28Z" transform="matrix(0.998, 0.07, -0.07, 0.998, 83.512, 34.457)" fill="url(#linear-gradient-5)"/>
+            <path id="Oval-8" data-name="Oval" d="M24.454,22.427c11.991,0,24.96-3.985,29.106-12.409S56.833,5.1,31.946,1.244-4.977,2.968,1.925,11.4,12.463,22.427,24.454,22.427Z" transform="translate(74.242 37.577)" fill="#06283d"/>
+            <g id="Group_10" data-name="Group 10" transform="translate(78.271 39.171)">
+              <path id="Oval-9" data-name="Oval" d="M20.472,18.212c10.038,0,21.261-2.679,24.366-10.077s2.739-4-18.095-7.125S-4.166,2.41,1.612,9.258,10.433,18.212,20.472,18.212Z" transform="translate(0.471 0.514)" fill="#06283d"/>
+              <g id="Group_10-2" data-name="Group 10" clip-path="url(#clip-path-2)">
+                <path id="Path_43" data-name="Path 43" d="M0,6.633S8.117-1.246,11.007.234s6.516,13.075,6.516,13.075L.586,10.4Z" transform="translate(-5.607 5.775)" fill="#fff"/>
+                <path id="Path_43_Copy_3" data-name="Path 43 Copy 3" d="M0,6.023S-7.474-1.131-10.134.212s-6,11.867-6,11.867L-.538,9.438Z" transform="matrix(0.921, -0.391, 0.391, 0.921, 47.781, 4.2)" fill="#fff"/>
+                <path id="Path_43_Copy" data-name="Path 43 Copy" d="M0,8.459S7.018-1.179,9.678.164s5.258,11.331,5.258,11.331L0,9.348Z" transform="translate(4.895 9.806)" fill="#fff"/>
+                <path id="Path_43_Copy_4" data-name="Path 43 Copy 4" d="M0,8.459S-7.018-1.179-9.678.164s-5.258,11.331-5.258,11.331L0,9.348Z" transform="translate(40.157 9.806)" fill="#fff"/>
+                <path id="Path_43_Copy_2" data-name="Path 43 Copy 2" d="M0,9.512S3.934,0,6.85,0s7.9,10.4,7.9,10.4H0Z" transform="translate(15.408 11.207)" fill="#fff"/>
+                <path id="Path_43_Copy_5" data-name="Path 43 Copy 5" d="M0-10.25S4.3,0,7.485,0s8.636-11.207,8.636-11.207H0Z" transform="translate(8.399 9.106)" fill="#fff"/>
+                <path id="Path_43_Copy_6" data-name="Path 43 Copy 6" d="M0-9.512S3.934,0,6.85,0s7.9-10.4,7.9-10.4H0Z" transform="translate(25.221 8.999)" fill="#fff"/>
+              </g>
+            </g>
+            <path id="Oval_Copy_3" data-name="Oval Copy 3" d="M16.263,116.54c13.8,0,24.737-39.612,31.8-74.49S63.121-3.644,30.88,1.03-3.812,22.655,3.251,58.27,2.46,116.54,16.263,116.54Z" transform="translate(72.916 65.088)" fill="#e5f0f5"/>
+            <path id="Oval_Copy_4" data-name="Oval Copy 4" d="M-29.238,69.872c-7.317,0-4.4-37.107-4.4-50.351S-19.867,0-12.55,0,.008,12.252,0,25.612-21.921,69.868-29.238,69.872Z" transform="matrix(0.788, 0.616, -0.616, 0.788, 83.061, 72.128)" fill="url(#linear-gradient-3)"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <path id="Shark-2" data-name="Shark" d="M0,22.26C-19.871,9.763-25.941-2.909-46.946.59s21.164,32.5-14.777,59.481C-34.231,58.163-31.3,22.5,0,22.26Z" transform="translate(48.571 9.691) rotate(-39)" fill="#0666a1"/>
+    <path id="Oval_Copy_4-2" data-name="Oval Copy 4" d="M-.738,45.53C-22.53,73.651-41.92,67.7-48.654,46.577c-3.426-10.748.572-19.422.576-25.029C-48.07,8.3-35.954,0-28.638,0S-13.7,11.981-13.7,25.341c0,4.312-2.862,14.035-6.365,19.083C-3.838,31.742,2.265,41.654-.738,45.53Z" transform="matrix(0.788, 0.616, -0.616, 0.788, 90.718, 83.331)" fill="url(#linear-gradient-3)"/>
+  </g>
+</svg>
