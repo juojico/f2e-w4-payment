@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="242.304" height="311" viewBox="0 0 242.304 311">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1.18" y1="0.593" x2="0.5" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0e9fcf"/>
+      <stop offset="1" stop-color="#0666a1"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="-0.18" y1="0.593" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-7" x1="0.099" y1="0.5" x2="0.918" y2="0.32" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0666a1"/>
+      <stop offset="1" stop-color="#076da7"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <path id="Oval" d="M48.013,33.053c18.311,0,41.092-9.706,46.072-20.711S75.23,0,47.265,0-4.188.79.631,12.342,29.7,33.053,48.013,33.053Z" transform="translate(0.148)" fill="#06283d"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-8" x1="0.5" y1="0" y2="1" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="sharkHAppy" transform="translate(-0.086)">
+    <g id="shark_down_copy" data-name="shark down copy" transform="translate(48.872)">
+      <path id="Oval-2" data-name="Oval" d="M72.92,252.406c36.019,0,72.92-85.655,72.92-144.983S93.231,0,72.92,0,0,48.095,0,107.423,36.9,252.406,72.92,252.406Z" transform="translate(0.357)" fill="#0666a1"/>
+      <path id="Oval_Copy_10" data-name="Oval Copy 10" d="M5.368,23.662c9.452-2.432,14.178-7.54,14.178-12.244S14.081,0,10.166,0,1.823,6.714,1.823,11.418-4.084,26.094,5.368,23.662Z" transform="translate(126.651 66.106)" fill="url(#linear-gradient)"/>
+      <path id="Oval_Copy_11" data-name="Oval Copy 11" d="M-5.368,23.662c-9.452-2.432-14.178-7.54-14.178-12.244S-14.081,0-10.166,0s8.342,6.714,8.342,11.418S4.084,26.094-5.368,23.662Z" transform="translate(21.406 66.106)" fill="url(#linear-gradient-2)"/>
+      <path id="Oval_Copy_9" data-name="Oval Copy 9" d="M5.368,23.662c9.452-2.432,14.178-7.54,14.178-12.244S14.081,0,10.166,0,1.823,6.714,1.823,11.418-4.084,26.094,5.368,23.662Z" transform="translate(122.14 58.594)" fill="url(#linear-gradient)"/>
+      <path id="Oval_Copy_12" data-name="Oval Copy 12" d="M-5.368,23.662c-9.452-2.432-14.178-7.54-14.178-12.244S-14.081,0-10.166,0s8.342,6.714,8.342,11.418S4.084,26.094-5.368,23.662Z" transform="translate(25.916 58.594)" fill="url(#linear-gradient-2)"/>
+      <path id="Oval-3" data-name="Oval" d="M1.419,73.269C8.041,82.291,44.086,56.4,52.656,37.663c.431-.943,10.162-26.836-.49-32.723-11.217-6.2-24.412-8.428-31.745,4.573S-5.2,64.247,1.419,73.269Z" transform="translate(19.903 235.879)" fill="#0666a1"/>
+      <path id="Oval_Copy_5" data-name="Oval Copy 5" d="M55.713,73.269C49.092,82.291,13.047,56.4,4.477,37.663c-.431-.943-10.162-26.836.49-32.723,11.217-6.2,24.412-8.428,31.745,4.573S62.335,64.247,55.713,73.269Z" transform="translate(68.014 235.879)" fill="#0666a1"/>
+      <path id="Oval_Copy_3" data-name="Oval Copy 3" d="M60.14,192.32c19.693,0,45.181-46.869,55.258-96.661S125.475,0,60.14,0-5.2,44.814,4.882,95.66,40.447,192.32,60.14,192.32Z" transform="translate(13.137 49.323)" fill="#e5f0f5"/>
+      <ellipse id="Oval-4" data-name="Oval" cx="3.759" cy="6.01" rx="3.759" ry="6.01" transform="translate(34.937 33.053)"/>
+      <ellipse id="Oval_Copy_6" data-name="Oval Copy 6" cx="3.759" cy="6.01" rx="3.759" ry="6.01" transform="translate(104.098 33.053)"/>
+      <ellipse id="Oval-5" data-name="Oval" cx="2.255" cy="2.254" rx="2.255" ry="2.254" transform="translate(62 10.517)" opacity="0.502"/>
+      <ellipse id="Oval_Copy_7" data-name="Oval Copy 7" cx="2.255" cy="2.254" rx="2.255" ry="2.254" transform="translate(80.042 10.517)" opacity="0.502"/>
+      <path id="Oval-6" data-name="Oval" d="M6.831,33.254c12.028-3.04,22.912-9.655,22.912-19.476S17.827,0,12.845,0,2.32,12.068,2.32,17.949-5.2,36.294,6.831,33.254Z" transform="translate(109.296 49.323)" fill="url(#linear-gradient)"/>
+      <path id="Oval_Copy_8" data-name="Oval Copy 8" d="M-5.542,34.5c-8.762-1.447-15.787-10.854-20.3-21.775S-16.547,0-11.565,0-1.031,13.314-1.031,19.195,3.22,35.948-5.542,34.5Z" transform="translate(37.472 48.077)" fill="url(#linear-gradient-2)"/>
+      <path id="Path_42" data-name="Path 42" d="M0,11.5s14.132,6.683,44.954,7.887S100.67,8.461,100.67,8.461L92.749,1.34,17.658,0Z" transform="translate(26.686 69.526)" fill="url(#linear-gradient-7)"/>
+      <path id="Oval-7" data-name="Oval" d="M50.9,39.063c19.456,0,36.016-4.251,46.929-19.531S79.821,0,50.108,0-9.28,3,2.739,21.034,31.447,39.063,50.9,39.063Z" transform="translate(23.168 45.072)" fill="#06283d"/>
+      <g id="Group_8" data-name="Group 8" transform="translate(25.907 48.077)">
+        <path id="Oval-8" data-name="Oval" d="M48.013,33.053c18.311,0,41.092-9.706,46.072-20.711S75.23,0,47.265,0-4.188.79.631,12.342,29.7,33.053,48.013,33.053Z" transform="translate(0.148)" fill="#06283d"/>
+        <g id="Group_8-2" data-name="Group 8" clip-path="url(#clip-path)">
+          <path id="Path_43" data-name="Path 43" d="M0,8.595S10.663-1.614,14.458.3s8.559,16.942,8.559,16.942L.769,13.47Z" transform="translate(0.009 16.223)" fill="#fff"/>
+          <path id="Path_43_Copy_3" data-name="Path 43 Copy 3" d="M0,8.595S-10.663-1.614-14.458.3s-8.559,16.942-8.559,16.942L-.769,13.47Z" transform="translate(98.2 15.024)" fill="#fff"/>
+          <path id="Path_43_Copy" data-name="Path 43 Copy" d="M0,12.077S10.013-1.683,13.808.235s7.5,16.176,7.5,16.176L0,13.345Z" transform="translate(19.555 19.712)" fill="#fff"/>
+          <path id="Path_43_Copy_4" data-name="Path 43 Copy 4" d="M0,12.077S-10.013-1.683-13.808.235s-7.5,16.176-7.5,16.176L0,13.345Z" transform="translate(78.452 21.034)" fill="#fff"/>
+          <path id="Path_43_Copy_2" data-name="Path 43 Copy 2" d="M0,13.579S5.613,0,9.773,0,21.049,14.848,21.049,14.848H0Z" transform="translate(39.1 21.034)" fill="#fff"/>
+          <path id="Path_43_Copy_5" data-name="Path 43 Copy 5" d="M0-13.579S5.613,0,9.773,0,21.049-14.848,21.049-14.848H0Z" transform="translate(28.576 10.34)" fill="#fff"/>
+          <path id="Path_43_Copy_6" data-name="Path 43 Copy 6" d="M0-13.579S5.613,0,9.773,0,21.049-14.848,21.049-14.848H0Z" transform="translate(46.618 10.34)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+    <path id="shark_hand_copy" data-name="shark hand copy" d="M-18.627,63.112c-7.153,0-14.259-24.379-14.255-39.13S-19.929,0-12.776,0,0,15.9,0,30.776-11.474,63.11-18.627,63.112Z" transform="translate(52.408 134.887) rotate(124)" fill="url(#linear-gradient-8)"/>
+    <path id="shark_hand_copy_2" data-name="shark hand copy 2" d="M18.627,63.112c7.153,0,14.259-24.379,14.255-39.13S19.929,0,12.776,0,0,15.9,0,30.776,11.474,63.11,18.627,63.112Z" transform="translate(187.734 132.615) rotate(-120)" fill="url(#linear-gradient-8)"/>
+  </g>
+</svg>

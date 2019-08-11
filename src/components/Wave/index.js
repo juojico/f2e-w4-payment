@@ -7,7 +7,9 @@ import {
   wave4,
   wave5,
   shark,
-  sharkUnder
+  sharkHappy,
+  sharkUnder,
+  money
 } from "../../assets";
 import { range } from "../../utility";
 
@@ -71,6 +73,17 @@ const Wave2 = styled(wave)`
   top: 25%;
   animation: ${waveTopAni} 2.1s alternate infinite,
     ${waveLeftAni} 3.2s -3s alternate infinite;
+  &::before {
+    position: absolute;
+    content: "";
+    top: 9%;
+    left: 22%;
+    width: 60%;
+    height: 50%;
+    border-radius: 20%;
+    transform: rotate(-11deg);
+    backdrop-filter: blur(10px);
+  }
 `;
 const Wave3 = styled(wave)`
   background-image: url(${wave3});
@@ -90,6 +103,27 @@ const Wave5 = styled(wave)`
     ${waveLeftAni} 5s alternate infinite;
 `;
 
+const sharkUnderAni = keyframes`
+  0% {
+    margin-left: 100%;
+    margin-top: 0;
+    transform: scaleX(1) rotate(-20deg);
+  }
+  50% {
+    margin-left: -200%;
+    margin-top: 15%;
+    transform: scaleX(1) rotate(-30deg);
+  }
+  51% {
+    transform: scaleX(-1) rotate(-2deg);
+  }
+  100% {
+    margin-left: 100%;
+    margin-top: 0;
+    transform: scaleX(-1) rotate(5deg);
+  }
+`;
+
 const Shark = styled.div`
   position: absolute;
   width: 213px;
@@ -98,6 +132,17 @@ const Shark = styled.div`
   left: 50%;
   top: 20%;
   transform: translate(-50%);
+  transition: 1s cubic-bezier(0.25, 1.02, 0.59, 1.23);
+`;
+
+const SharkUnder = styled.div`
+  position: absolute;
+  width: 528px;
+  height: 185px;
+  background: url(${sharkUnder});
+  background-position: center;
+  left: 50%;
+  animation: ${sharkUnderAni} 10s linear infinite;
 `;
 
 let ROT = {};
@@ -114,7 +159,7 @@ window.addEventListener(
   false
 );
 
-const Wave = ({ top, shark }) => {
+const Wave = ({ top, shark, sharkUnder }) => {
   const [devRotate, setDevRotate] = useState({});
   useEffect(() => {
     setTimeout(() => {
@@ -147,6 +192,13 @@ const Wave = ({ top, shark }) => {
           transform: `rotate(${-devRotate.gamma / 3}deg)`
         }}
       />
+      {sharkUnder ? (
+        <SharkUnder
+          style={{
+            top: `${devRotate.beta / 2.5 + 22}%`
+          }}
+        />
+      ) : null}
       <Wave2
         style={{
           left: `${devRotate.gamma / 4}%`,

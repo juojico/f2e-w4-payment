@@ -54,7 +54,11 @@ function Screen() {
       <PaySuccess open={pages.paySuccess} />
       <BgArea>
         {pages.landingPage ? <DropBg /> : null}
-        <Wave top="50" shark={pages.paySuccess} />
+        <Wave
+          top={pages.paySuccess ? 35 : 50}
+          shark={pages.paySuccess}
+          sharkUnder={pages.fillInfo}
+        />
       </BgArea>
     </Container>
   );
