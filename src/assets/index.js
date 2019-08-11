@@ -4,8 +4,9 @@ import mainLogo from "./svg/main_logo.svg";
 import shark from "./svg/shark.svg";
 import sharkHappy from "./svg/sharkHappy.svg";
 import sharkLogo from "./svg/shark_logo.svg";
-import sharkUnder from "./svg/SharkUnder.svg";
-import ship from "./svg/Ship.svg";
+import sharkUnder from "./svg/sharkUnder.svg";
+import ship from "./svg/ship.svg";
+import shipBox from "./svg/shipBox.svg";
 import wave1 from "./svg/wave1.svg";
 import wave2 from "./svg/wave2.svg";
 import wave3 from "./svg/wave3.svg";
@@ -25,6 +26,7 @@ export {
   sharkLogo,
   sharkUnder,
   ship,
+  shipBox,
   wave1,
   wave2,
   wave3,

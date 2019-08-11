@@ -9,7 +9,10 @@ import {
   shark,
   sharkHappy,
   sharkUnder,
-  money
+  money,
+  box,
+  ship,
+  shipBox
 } from "../../assets";
 import { range } from "../../utility";
 
@@ -126,13 +129,23 @@ const sharkUnderAni = keyframes`
 
 const Shark = styled.div`
   position: absolute;
-  width: 213px;
+  width: 245px;
   height: 311px;
-  background: url(${shark});
+  background: url(${props => (props.happy ? sharkHappy : shark)});
+  background-position: bottom;
+  background-repeat: no-repeat;
   left: 50%;
   top: 20%;
   transform: translate(-50%);
   transition: 1s cubic-bezier(0.25, 1.02, 0.59, 1.23);
+  ${props =>
+    props.mask
+      ? `
+  height: 250px;
+  margin-top: 61px;
+  z-index: 5;
+  `
+      : null}
 `;
 
 const SharkUnder = styled.div`
@@ -143,6 +156,112 @@ const SharkUnder = styled.div`
   background-position: center;
   left: 50%;
   animation: ${sharkUnderAni} 10s linear infinite;
+  transition: 1s cubic-bezier(0.25, 1.02, 0.59, 1.23);
+`;
+
+const moneyAni = keyframes`
+  0% {
+    top: -30%;
+  }
+  70% {
+    opacity: 1;
+    width: 177px;
+  }
+  100% {
+    opacity: 0;
+    width: 10px;
+  }
+`;
+
+const boxAni = keyframes`
+  0% {
+    top: 30%;
+    opacity: 0;
+  }
+  20% {
+    top: 20%;
+    opacity: 1;
+  }
+  50% {
+    top: 20%;
+    opacity: 1;
+    transform: scale(1) translate(-50%, -50%);
+  }
+  70% {
+    top: 0%;
+    opacity: 1;
+  }
+  100% {
+    top: 15%;
+    opacity: 1;
+    transform: scale(.8) translate(-50%, -50%);
+    opacity: 0;
+  }
+`;
+
+const shipAni = keyframes`
+  0% {
+    margin-left: -70%;;
+  }
+  100% {
+    margin-left: 100%;
+  }
+`;
+
+const Money = styled.div`
+  position: absolute;
+  width: 177px;
+  height: 100px;
+  left: 50%;
+  top: 30%;
+  background: url(${money});
+  background-position: top;
+  background-repeat: no-repeat;
+  transform: translate(-50%, -50%) rotate(90deg);
+  animation: ${moneyAni} 2s ease-out forwards;
+  opacity: 0;
+  z-index: 3;
+`;
+
+const Box = styled.div`
+  position: absolute;
+  width: 58px;
+  height: 58px;
+  left: 50%;
+  top: 0%;
+  background: url(${box});
+  background-position: center;
+  background-repeat: no-repeat;
+  transform: translate(-50%, -50%);
+  animation: ${boxAni} 2s 1.5s ease-out forwards;
+  opacity: 0;
+  z-index: 3;
+`;
+
+const Ship = styled.div`
+  position: absolute;
+  width: 132px;
+  height: 133px;
+  left: 50%;
+  top: 0%;
+  margin-left: 100%;
+  background: url(${ship});
+  background-position: top;
+  background-repeat: no-repeat;
+  transform: translate(-50%, -50%);
+  animation: ${waveTopAni} 2.4s alternate infinite,
+    ${shipAni} 9.6s linear forwards;
+  &::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(${shipBox});
+    opacity: ${props => (props.hasBox ? 1 : 0)};
+    transition: 1s;
+  }
 `;
 
 let ROT = {};
@@ -169,8 +288,58 @@ const Wave = ({ top, shark, sharkUnder }) => {
       });
     }, 300);
   });
+
+  const [animate, setAnimate] = useState({ box: false, shark: false });
+  if (shark) {
+    setTimeout(() => {
+      setAnimate({
+        box: true,
+        shark: true
+      });
+    }, 3000);
+  }
   return (
     <WaveArea top={top}>
+      {shark ? (
+        <>
+          <Money
+            style={{
+              top: `${devRotate.beta / 2.5 + 43}%`,
+              animationDelay: "-0.1s"
+            }}
+          />
+          <Money
+            style={{
+              top: `${devRotate.beta / 2.5 + 43}%`,
+              animationDelay: "-0.2s"
+            }}
+          />
+          <Money
+            style={{
+              top: `${devRotate.beta / 2.5 + 43}%`,
+              animationDelay: "-0.3s"
+            }}
+          />
+          <Money
+            style={{
+              top: `${devRotate.beta / 2.5 + 43}%`,
+              animationDelay: "-0.4s"
+            }}
+          />
+          <Money
+            style={{
+              top: `${devRotate.beta / 2.5 + 43}%`,
+              animationDelay: "-0.5s"
+            }}
+          />
+          <Box
+            style={{
+              top: `${devRotate.beta / 2.5 + 20}%`,
+              transform: `rotate(${-devRotate.gamma / 3}deg) translate(-50%)`
+            }}
+          />
+        </>
+      ) : null}
       <Wave5
         style={{
           left: `${devRotate.gamma / 6}%`,
@@ -185,6 +354,15 @@ const Wave = ({ top, shark, sharkUnder }) => {
           transform: `rotate(${-devRotate.gamma / 3}deg)`
         }}
       />
+      {shark ? (
+        <Ship
+          hasBox={animate.box}
+          style={{
+            top: `${devRotate.beta / 3 + 5}%`,
+            transform: `rotate(${-devRotate.gamma / 3}deg)`
+          }}
+        />
+      ) : null}
       <Wave3
         style={{
           left: `${devRotate.gamma / 5}%`,
@@ -207,12 +385,23 @@ const Wave = ({ top, shark, sharkUnder }) => {
         }}
       />
       {shark ? (
-        <Shark
-          style={{
-            top: `${devRotate.beta / 2.5 + 20}%`,
-            transform: `rotate(${-devRotate.gamma / 3}deg) translate(-50%)`
-          }}
-        />
+        <>
+          <Shark
+            happy={animate.shark}
+            style={{
+              top: `${devRotate.beta / 2.5 + 20}%`,
+              transform: `rotate(${-devRotate.gamma / 3}deg) translate(-50%)`
+            }}
+          />
+          <Shark
+            happy={animate.shark}
+            mask
+            style={{
+              top: `${devRotate.beta / 2.5 + 20}%`,
+              transform: `rotate(${-devRotate.gamma / 3}deg) translate(-50%)`
+            }}
+          />
+        </>
       ) : null}
       <Wave1
         style={{

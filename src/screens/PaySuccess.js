@@ -1,5 +1,5 @@
 import React from "react";
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 
 const MainArea = styled.div`
   position: relative;
@@ -30,16 +30,27 @@ const TextArea = styled.div`
   }
 `;
 
+const successAni = keyframes`
+from {
+  margin-top: -50%;
+}
+to {
+  margin-top: 0;
+}
+`;
+
 const TextAreaSuccess = styled.div`
   position: absolute;
   width: 100%;
   left: 50%;
+  margin-top: -50%;
   color: white;
   text-align: center;
   transform: translate(-50%);
   letter-spacing: 0.25em;
   font-size: 45px;
   font-weight: 400;
+  animation: ${successAni} 1.5s 3s cubic-bezier(0.25, 1.02, 0.59, 1.23) forwards;
 `;
 const SuccessIcon = styled.div`
   position: relative;
