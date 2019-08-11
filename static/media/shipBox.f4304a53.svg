@@ -1,12 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="134.7" height="121.416" viewBox="0 0 134.7 121.416">
-  <g id="Ship" transform="translate(-6.452 9.556) rotate(-7)">
+<svg xmlns="http://www.w3.org/2000/svg" width="137.3" height="121.417" viewBox="0 0 137.3 121.417">
+  <g id="shipBox" transform="translate(-3.852 9.556) rotate(-7)">
     <path id="Path_36" data-name="Path 36" d="M6.509,58.195,0,0H23.846V61.337Z" transform="translate(54.568 0)" fill="#c7ea4e"/>
+    <g id="box_1_copy_3" data-name="box (1) copy 3" transform="translate(0.23 29.731) rotate(-14)">
+      <path id="Path" d="M48,0H10L0,16V58H58V16Z" fill="#cea02a"/>
+      <path id="Path-2" data-name="Path" d="M10,0,0,16H58L48,0Z" fill="#ffcf61"/>
+      <path id="Path-3" data-name="Path" d="M10,4,6,0,2,4,0,2V8H12V2Z" transform="translate(23 50)" fill="#dbdb7d"/>
+      <rect id="Rectangle" width="12" height="16" transform="translate(23)" fill="#ffffb6"/>
+      <path id="Path-4" data-name="Path" d="M2,5,6,9l4-4,2,2V0H0V7Z" transform="translate(23 16)" fill="#dbdb7d"/>
+    </g>
     <path id="Path_35" data-name="Path 35" d="M27.962,2.766,0,0V2.766L29.016,6.285Z" transform="translate(49.398 55.052)" fill="#3a6b00"/>
     <path id="Path_34" data-name="Path 34" d="M40.024,3.208,0,0,2.836,13.361H40.024Z" transform="translate(38.39 56.486)" fill="#0f1704"/>
     <path id="Path_32" data-name="Path 32" d="M26.212,37.178,30.207,0,11.4,1.6V7.313H0L2.482,49.184l23.73-11Z" transform="translate(74.318 18.872)" fill="#a2cba0"/>
     <path id="Path_30" data-name="Path 30" d="M.932,0H118l-7.8,21.02s-24.6,6.638-35.781,7.927S21.46,30.587,9.261,26.5.932,0,.932,0Z" transform="translate(2 83.169)" fill="#c7ea4e"/>
     <path id="Path_31" data-name="Path 31" d="M132,0,120.237,30.225H3.05L0,14.374H65.757a10.617,10.617,0,0,0,7.822-10.6C79.2,3.775,132,0,132,0Z" transform="translate(0 52.944)" fill="#3a6b00"/>
-    <path id="Rectangle" d="M0,0H117.91l-.751,2H0Z" transform="translate(2.841 82)" fill="#fdffd3"/>
+    <path id="Rectangle-2" data-name="Rectangle" d="M0,0H117.91l-.751,2H0Z" transform="translate(2.841 82)" fill="#fdffd3"/>
     <path id="Rectangle_Copy" data-name="Rectangle Copy" d="M0,0H120.77l-.751,2H.377Z" transform="translate(1.853 77)" fill="#fdffd3"/>
     <path id="Path_33" data-name="Path 33" d="M0,0H29.382l-.839,6.795L.511,7.541Z" transform="translate(74.318 26.185)" fill="#3a6b00"/>
     <circle id="Oval" cx="6.25" cy="6.25" r="6.25" transform="translate(83 37.169)" fill="#3a6b00" stroke="#fdffd3" stroke-miterlimit="10" stroke-width="2"/>
