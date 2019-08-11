@@ -219,6 +219,7 @@ const Money = styled.div`
   background-repeat: no-repeat;
   transform: translate(-50%, -50%) rotate(90deg);
   animation: ${moneyAni} 2s ease-out forwards;
+  transition: 1s cubic-bezier(0.25, 1.02, 0.59, 1.23);
   opacity: 0;
   z-index: 3;
 `;
@@ -234,6 +235,7 @@ const Box = styled.div`
   background-repeat: no-repeat;
   transform: translate(-50%, -50%);
   animation: ${boxAni} 2s 1.5s ease-out forwards;
+  transition: 1s cubic-bezier(0.25, 1.02, 0.59, 1.23);
   opacity: 0;
   z-index: 3;
 `;
@@ -251,6 +253,7 @@ const Ship = styled.div`
   transform: translate(-50%, -50%);
   animation: ${waveTopAni} 2.4s alternate infinite,
     ${shipAni} 9.6s linear forwards;
+  transition: 1s cubic-bezier(0.25, 1.02, 0.59, 1.23);
   &::before {
     position: absolute;
     content: "";
