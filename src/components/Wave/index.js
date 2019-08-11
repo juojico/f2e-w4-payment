@@ -139,7 +139,7 @@ const Shark = styled.div`
   transform: translate(-50%);
   transition: 1s cubic-bezier(0.25, 1.02, 0.59, 1.23);
   ${props =>
-    props.mask
+    props.maskBody
       ? `
   height: 250px;
   margin-top: 61px;
@@ -289,8 +289,16 @@ const Wave = ({ top, shark, sharkUnder }) => {
     }, 300);
   });
 
-  const [animate, setAnimate] = useState({ box: false, shark: false });
-  if (shark) {
+  const [animate, setAnimate] = useState({
+    start: true,
+    box: false,
+    shark: false
+  });
+
+  if (shark && animate.start) {
+    setAnimate({
+      start: false
+    });
     setTimeout(() => {
       setAnimate({
         box: true,
@@ -298,6 +306,7 @@ const Wave = ({ top, shark, sharkUnder }) => {
       });
     }, 3000);
   }
+
   return (
     <WaveArea top={top}>
       {shark ? (
@@ -358,7 +367,7 @@ const Wave = ({ top, shark, sharkUnder }) => {
         <Ship
           hasBox={animate.box}
           style={{
-            top: `${devRotate.beta / 3 + 5}%`,
+            top: `${devRotate.beta / 3 + 7}%`,
             transform: `rotate(${-devRotate.gamma / 3}deg)`
           }}
         />
@@ -393,14 +402,15 @@ const Wave = ({ top, shark, sharkUnder }) => {
               transform: `rotate(${-devRotate.gamma / 3}deg) translate(-50%)`
             }}
           />
-          <Shark
-            happy={animate.shark}
-            mask
-            style={{
-              top: `${devRotate.beta / 2.5 + 20}%`,
-              transform: `rotate(${-devRotate.gamma / 3}deg) translate(-50%)`
-            }}
-          />
+          {animate.shark ? null : (
+            <Shark
+              maskBody={true}
+              style={{
+                top: `${devRotate.beta / 2.5 + 20}%`,
+                transform: `rotate(${-devRotate.gamma / 3}deg) translate(-50%)`
+              }}
+            />
+          )}
         </>
       ) : null}
       <Wave1
